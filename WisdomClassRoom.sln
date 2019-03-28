@@ -1,0 +1,244 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 14
+VisualStudioVersion = 14.0.25420.1
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WCR.ClassRoomUI", "WCR.ClassRoomUI\WCR.ClassRoomUI.csproj", "{1A9DF249-7E9D-4FEF-838E-5C805DE3B81E}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "HungryWolf.Core", "Core\HungryWolf.Core\HungryWolf.Core.csproj", "{C710C202-0913-45F1-831C-39B1E85A8C9B}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "HungryWolf.DBUtility", "Core\HungryWolf.DBUtility\HungryWolf.DBUtility.csproj", "{E4DF66CA-200A-4DE2-9D77-C27F60976C6F}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Core", "Core", "{5A83588D-2149-438A-96D6-545E84278351}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "04.WCR.BLL", "WCR.BLL\04.WCR.BLL.csproj", "{B6961C8A-2B8A-47D4-9F02-16681FAD84C8}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WCR.BusniessUI", "WCR.BusniessUI\WCR.BusniessUI.csproj", "{ACF1E8D5-3E3B-4B51-B276-9651BAAA1581}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "02.WCR.DAL", "WCR.DAL\02.WCR.DAL.csproj", "{83E0F5B9-F29E-4814-B59C-7605265F34C4}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "01.WCR.Entity", "WCR.Entity\01.WCR.Entity.csproj", "{CEBDB6C9-1C3E-41DA-A973-6B0CFCBFEC64}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "05.WCR.Fac", "WCR.Fac\05.WCR.Fac.csproj", "{6974637D-D1A5-4403-8E01-6043A99DBFB7}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "03.WCR.Lib", "WCR.Lib\03.WCR.Lib.csproj", "{2350D1BA-49B9-4AD1-BBDA-D68E6EA21F8A}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WCR.SystemUI", "WCR.SystemUI\WCR.SystemUI.csproj", "{BF48C0A9-5F25-4620-9005-A9EE9D4D890E}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Services", "Services", "{AE8BECD6-1389-4C80-998B-BE8B7C3328D5}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "bins", "bins", "{63DB4E2A-E12D-4D15-A534-15D934114ABA}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "SuperWebSocket", "SuperWebSocket", "{802E6C8B-FCE2-432F-8BF6-18A85D2482EB}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Config", "Config", "{97C2D6DB-5D4D-4EC0-8B08-E30542D5E1E7}"
+	ProjectSection(SolutionItems) = preProject
+		Core\bins\SuperWebSocket\Config\log4net.config = Core\bins\SuperWebSocket\Config\log4net.config
+		Core\bins\SuperWebSocket\Config\log4net.unix.config = Core\bins\SuperWebSocket\Config\log4net.unix.config
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Binaries", "Binaries", "{F9500CDF-33CC-4EE0-9B79-2E05C7F31888}"
+	ProjectSection(SolutionItems) = preProject
+		Core\bins\SuperWebSocket\InstallService.bat = Core\bins\SuperWebSocket\InstallService.bat
+		Core\bins\SuperWebSocket\Binaries\InstallService.bat = Core\bins\SuperWebSocket\Binaries\InstallService.bat
+		Core\bins\SuperWebSocket\log4net.dll = Core\bins\SuperWebSocket\log4net.dll
+		Core\bins\SuperWebSocket\Binaries\log4net.dll = Core\bins\SuperWebSocket\Binaries\log4net.dll
+		Core\bins\SuperWebSocket\Binaries\Newtonsoft.Json.dll = Core\bins\SuperWebSocket\Binaries\Newtonsoft.Json.dll
+		Core\bins\SuperWebSocket\SuperSocket.Common.dll = Core\bins\SuperWebSocket\SuperSocket.Common.dll
+		Core\bins\SuperWebSocket\Binaries\SuperSocket.Common.dll = Core\bins\SuperWebSocket\Binaries\SuperSocket.Common.dll
+		Core\bins\SuperWebSocket\SuperSocket.Common.xml = Core\bins\SuperWebSocket\SuperSocket.Common.xml
+		Core\bins\SuperWebSocket\Binaries\SuperSocket.Common.xml = Core\bins\SuperWebSocket\Binaries\SuperSocket.Common.xml
+		Core\bins\SuperWebSocket\SuperSocket.Facility.dll = Core\bins\SuperWebSocket\SuperSocket.Facility.dll
+		Core\bins\SuperWebSocket\Binaries\SuperSocket.Facility.dll = Core\bins\SuperWebSocket\Binaries\SuperSocket.Facility.dll
+		Core\bins\SuperWebSocket\SuperSocket.Facility.XML = Core\bins\SuperWebSocket\SuperSocket.Facility.XML
+		Core\bins\SuperWebSocket\Binaries\SuperSocket.Facility.XML = Core\bins\SuperWebSocket\Binaries\SuperSocket.Facility.XML
+		Core\bins\SuperWebSocket\SuperSocket.SocketBase.dll = Core\bins\SuperWebSocket\SuperSocket.SocketBase.dll
+		Core\bins\SuperWebSocket\Binaries\SuperSocket.SocketBase.dll = Core\bins\SuperWebSocket\Binaries\SuperSocket.SocketBase.dll
+		Core\bins\SuperWebSocket\SuperSocket.SocketBase.xml = Core\bins\SuperWebSocket\SuperSocket.SocketBase.xml
+		Core\bins\SuperWebSocket\Binaries\SuperSocket.SocketBase.xml = Core\bins\SuperWebSocket\Binaries\SuperSocket.SocketBase.xml
+		Core\bins\SuperWebSocket\SuperSocket.SocketEngine.dll = Core\bins\SuperWebSocket\SuperSocket.SocketEngine.dll
+		Core\bins\SuperWebSocket\Binaries\SuperSocket.SocketEngine.dll = Core\bins\SuperWebSocket\Binaries\SuperSocket.SocketEngine.dll
+		Core\bins\SuperWebSocket\SuperSocket.SocketEngine.xml = Core\bins\SuperWebSocket\SuperSocket.SocketEngine.xml
+		Core\bins\SuperWebSocket\Binaries\SuperSocket.SocketEngine.xml = Core\bins\SuperWebSocket\Binaries\SuperSocket.SocketEngine.xml
+		Core\bins\SuperWebSocket\SuperSocket.SocketService.exe = Core\bins\SuperWebSocket\SuperSocket.SocketService.exe
+		Core\bins\SuperWebSocket\Binaries\SuperSocket.SocketService.exe = Core\bins\SuperWebSocket\Binaries\SuperSocket.SocketService.exe
+		Core\bins\SuperWebSocket\SuperSocket.SocketService.exe.config = Core\bins\SuperWebSocket\SuperSocket.SocketService.exe.config
+		Core\bins\SuperWebSocket\Binaries\SuperSocket.SocketService.exe.config = Core\bins\SuperWebSocket\Binaries\SuperSocket.SocketService.exe.config
+		Core\bins\SuperWebSocket\SuperWebSocket.dll = Core\bins\SuperWebSocket\SuperWebSocket.dll
+		Core\bins\SuperWebSocket\Binaries\SuperWebSocket.dll = Core\bins\SuperWebSocket\Binaries\SuperWebSocket.dll
+		Core\bins\SuperWebSocket\SuperWebSocket.XML = Core\bins\SuperWebSocket\SuperWebSocket.XML
+		Core\bins\SuperWebSocket\Binaries\SuperWebSocket.XML = Core\bins\SuperWebSocket\Binaries\SuperWebSocket.XML
+		Core\bins\SuperWebSocket\UninstallService.bat = Core\bins\SuperWebSocket\UninstallService.bat
+		Core\bins\SuperWebSocket\Binaries\UninstallService.bat = Core\bins\SuperWebSocket\Binaries\UninstallService.bat
+		Core\bins\SuperWebSocket\WebSocket4Net.dll = Core\bins\SuperWebSocket\WebSocket4Net.dll
+		Core\bins\SuperWebSocket\Binaries\WebSocket4Net.dll = Core\bins\SuperWebSocket\Binaries\WebSocket4Net.dll
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Source", "Source", "{6605F209-244D-47FF-BFE2-6B8D60622880}"
+	ProjectSection(SolutionItems) = preProject
+		..\SuperWebSocket.7z = ..\SuperWebSocket.7z
+	EndProjectSection
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WCR.TeacherUI", "WCR.TeacherUI\WCR.TeacherUI.csproj", "{B314F002-F66C-4BAB-9DFB-183B2E648955}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WCR.TeacherService", "Services\WCR.TeacherService\WCR.TeacherService.csproj", "{99B20A45-BA95-4071-AFAD-D573DDFFF52B}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WCR.Stat", "WCR.WebUI\WCR.Stat.csproj", "{8860D2F0-C752-48DA-B1B3-5C66B1248504}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Aspose", "Aspose", "{68AC4676-BD28-4FE5-8942-EBA8624E9AE8}"
+	ProjectSection(SolutionItems) = preProject
+		Core\bins\Aspose\Aspose.Cells.dll = Core\bins\Aspose\Aspose.Cells.dll
+		Core\bins\Aspose\Aspose.Pdf.Kit.dll = Core\bins\Aspose\Aspose.Pdf.Kit.dll
+		Core\bins\Aspose\Aspose.Pdf.Kit.xml = Core\bins\Aspose\Aspose.Pdf.Kit.xml
+		Core\bins\Aspose\Aspose.Slides.dll = Core\bins\Aspose\Aspose.Slides.dll
+		Core\bins\Aspose\Aspose.Slides.xml = Core\bins\Aspose\Aspose.Slides.xml
+		Core\bins\Aspose\Aspose.Words.dll = Core\bins\Aspose\Aspose.Words.dll
+		Core\bins\Aspose\Aspose.Words.xml = Core\bins\Aspose\Aspose.Words.xml
+		Core\bins\Aspose\示例代码.txt = Core\bins\Aspose\示例代码.txt
+	EndProjectSection
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WCR.ControlUI", "WCR.ControlUI\WCR.ControlUI.csproj", "{A64D8655-A9F7-4F23-B91E-B7ECAF0BC54B}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Oraycn", "Oraycn", "{966A42FB-9798-44CA-9BD5-577D165F82EA}"
+	ProjectSection(SolutionItems) = preProject
+		Core\bins\Capture\Oraycn\ESBasic.dll = Core\bins\Capture\Oraycn\ESBasic.dll
+		Core\bins\Capture\Oraycn\Oraycn.MCapture.dll = Core\bins\Capture\Oraycn\Oraycn.MCapture.dll
+		Core\bins\Capture\Oraycn\Oraycn.MPlayer.dll = Core\bins\Capture\Oraycn\Oraycn.MPlayer.dll
+		Core\bins\Capture\Oraycn\示例代码.txt = Core\bins\Capture\Oraycn\示例代码.txt
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Capture", "Capture", "{851D4B93-F494-4765-8E3F-EAA15BC249FD}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WCR.SiteUI", "WCR.SiteUI\WCR.SiteUI.csproj", "{8325C60A-FEF5-4426-A261-03C379D545FE}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WCR.YunTaskService", "Services\WCR.YunTaskService\WCR.YunTaskService\WCR.YunTaskService.csproj", "{D79C62AA-2CAD-4C68-A5B9-F2EB7EA5A306}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ChatRoomService", "Services\ChatRoomService\ChatRoomService.csproj", "{B340D5AB-1803-4A5F-AE72-3E6BBFE85123}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WCR.Live", "WCR.Live\WCR.Live.csproj", "{43B61E2A-A6E9-41D6-BF02-3C4F3FB24483}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "YunClassService", "Services\YunClassService\YunClassService.csproj", "{EE84D605-E2D3-4325-9D02-3B0E0DE7C920}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ClassRoomUpdateService", "Services\ClassRoomUpdateService\ClassRoomUpdateService.csproj", "{05C7E6B0-0382-4C7F-BEA5-A19C82978F23}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "PDF", "PDF", "{DF78E65D-B58F-48E7-B865-2A25B76A927B}"
+	ProjectSection(SolutionItems) = preProject
+		Core\bins\PDF\O2S.Components.PDFRender4NET.dll = Core\bins\PDF\O2S.Components.PDFRender4NET.dll
+	EndProjectSection
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SignalService", "Services\SignalService\SignalService.csproj", "{D1A33D30-D211-46C6-B63A-EF4C49044C54}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{1A9DF249-7E9D-4FEF-838E-5C805DE3B81E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{1A9DF249-7E9D-4FEF-838E-5C805DE3B81E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{1A9DF249-7E9D-4FEF-838E-5C805DE3B81E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{1A9DF249-7E9D-4FEF-838E-5C805DE3B81E}.Release|Any CPU.Build.0 = Release|Any CPU
+		{C710C202-0913-45F1-831C-39B1E85A8C9B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C710C202-0913-45F1-831C-39B1E85A8C9B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C710C202-0913-45F1-831C-39B1E85A8C9B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C710C202-0913-45F1-831C-39B1E85A8C9B}.Release|Any CPU.Build.0 = Release|Any CPU
+		{E4DF66CA-200A-4DE2-9D77-C27F60976C6F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E4DF66CA-200A-4DE2-9D77-C27F60976C6F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E4DF66CA-200A-4DE2-9D77-C27F60976C6F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E4DF66CA-200A-4DE2-9D77-C27F60976C6F}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B6961C8A-2B8A-47D4-9F02-16681FAD84C8}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B6961C8A-2B8A-47D4-9F02-16681FAD84C8}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B6961C8A-2B8A-47D4-9F02-16681FAD84C8}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B6961C8A-2B8A-47D4-9F02-16681FAD84C8}.Release|Any CPU.Build.0 = Release|Any CPU
+		{ACF1E8D5-3E3B-4B51-B276-9651BAAA1581}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{ACF1E8D5-3E3B-4B51-B276-9651BAAA1581}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{ACF1E8D5-3E3B-4B51-B276-9651BAAA1581}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{ACF1E8D5-3E3B-4B51-B276-9651BAAA1581}.Release|Any CPU.Build.0 = Release|Any CPU
+		{83E0F5B9-F29E-4814-B59C-7605265F34C4}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{83E0F5B9-F29E-4814-B59C-7605265F34C4}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{83E0F5B9-F29E-4814-B59C-7605265F34C4}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{83E0F5B9-F29E-4814-B59C-7605265F34C4}.Release|Any CPU.Build.0 = Release|Any CPU
+		{CEBDB6C9-1C3E-41DA-A973-6B0CFCBFEC64}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{CEBDB6C9-1C3E-41DA-A973-6B0CFCBFEC64}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{CEBDB6C9-1C3E-41DA-A973-6B0CFCBFEC64}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{CEBDB6C9-1C3E-41DA-A973-6B0CFCBFEC64}.Release|Any CPU.Build.0 = Release|Any CPU
+		{6974637D-D1A5-4403-8E01-6043A99DBFB7}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{6974637D-D1A5-4403-8E01-6043A99DBFB7}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{6974637D-D1A5-4403-8E01-6043A99DBFB7}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{6974637D-D1A5-4403-8E01-6043A99DBFB7}.Release|Any CPU.Build.0 = Release|Any CPU
+		{2350D1BA-49B9-4AD1-BBDA-D68E6EA21F8A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{2350D1BA-49B9-4AD1-BBDA-D68E6EA21F8A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{2350D1BA-49B9-4AD1-BBDA-D68E6EA21F8A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{2350D1BA-49B9-4AD1-BBDA-D68E6EA21F8A}.Release|Any CPU.Build.0 = Release|Any CPU
+		{BF48C0A9-5F25-4620-9005-A9EE9D4D890E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{BF48C0A9-5F25-4620-9005-A9EE9D4D890E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{BF48C0A9-5F25-4620-9005-A9EE9D4D890E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{BF48C0A9-5F25-4620-9005-A9EE9D4D890E}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B314F002-F66C-4BAB-9DFB-183B2E648955}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B314F002-F66C-4BAB-9DFB-183B2E648955}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B314F002-F66C-4BAB-9DFB-183B2E648955}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B314F002-F66C-4BAB-9DFB-183B2E648955}.Release|Any CPU.Build.0 = Release|Any CPU
+		{99B20A45-BA95-4071-AFAD-D573DDFFF52B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{99B20A45-BA95-4071-AFAD-D573DDFFF52B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{99B20A45-BA95-4071-AFAD-D573DDFFF52B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{99B20A45-BA95-4071-AFAD-D573DDFFF52B}.Release|Any CPU.Build.0 = Release|Any CPU
+		{8860D2F0-C752-48DA-B1B3-5C66B1248504}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{8860D2F0-C752-48DA-B1B3-5C66B1248504}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{8860D2F0-C752-48DA-B1B3-5C66B1248504}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{8860D2F0-C752-48DA-B1B3-5C66B1248504}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A64D8655-A9F7-4F23-B91E-B7ECAF0BC54B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A64D8655-A9F7-4F23-B91E-B7ECAF0BC54B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A64D8655-A9F7-4F23-B91E-B7ECAF0BC54B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A64D8655-A9F7-4F23-B91E-B7ECAF0BC54B}.Release|Any CPU.Build.0 = Release|Any CPU
+		{8325C60A-FEF5-4426-A261-03C379D545FE}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{8325C60A-FEF5-4426-A261-03C379D545FE}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{8325C60A-FEF5-4426-A261-03C379D545FE}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{8325C60A-FEF5-4426-A261-03C379D545FE}.Release|Any CPU.Build.0 = Release|Any CPU
+		{D79C62AA-2CAD-4C68-A5B9-F2EB7EA5A306}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D79C62AA-2CAD-4C68-A5B9-F2EB7EA5A306}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D79C62AA-2CAD-4C68-A5B9-F2EB7EA5A306}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D79C62AA-2CAD-4C68-A5B9-F2EB7EA5A306}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B340D5AB-1803-4A5F-AE72-3E6BBFE85123}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B340D5AB-1803-4A5F-AE72-3E6BBFE85123}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B340D5AB-1803-4A5F-AE72-3E6BBFE85123}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B340D5AB-1803-4A5F-AE72-3E6BBFE85123}.Release|Any CPU.Build.0 = Release|Any CPU
+		{43B61E2A-A6E9-41D6-BF02-3C4F3FB24483}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{43B61E2A-A6E9-41D6-BF02-3C4F3FB24483}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{43B61E2A-A6E9-41D6-BF02-3C4F3FB24483}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{43B61E2A-A6E9-41D6-BF02-3C4F3FB24483}.Release|Any CPU.Build.0 = Release|Any CPU
+		{EE84D605-E2D3-4325-9D02-3B0E0DE7C920}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{EE84D605-E2D3-4325-9D02-3B0E0DE7C920}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{EE84D605-E2D3-4325-9D02-3B0E0DE7C920}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{EE84D605-E2D3-4325-9D02-3B0E0DE7C920}.Release|Any CPU.Build.0 = Release|Any CPU
+		{05C7E6B0-0382-4C7F-BEA5-A19C82978F23}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{05C7E6B0-0382-4C7F-BEA5-A19C82978F23}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{05C7E6B0-0382-4C7F-BEA5-A19C82978F23}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{05C7E6B0-0382-4C7F-BEA5-A19C82978F23}.Release|Any CPU.Build.0 = Release|Any CPU
+		{D1A33D30-D211-46C6-B63A-EF4C49044C54}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D1A33D30-D211-46C6-B63A-EF4C49044C54}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D1A33D30-D211-46C6-B63A-EF4C49044C54}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D1A33D30-D211-46C6-B63A-EF4C49044C54}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{C710C202-0913-45F1-831C-39B1E85A8C9B} = {5A83588D-2149-438A-96D6-545E84278351}
+		{E4DF66CA-200A-4DE2-9D77-C27F60976C6F} = {5A83588D-2149-438A-96D6-545E84278351}
+		{63DB4E2A-E12D-4D15-A534-15D934114ABA} = {5A83588D-2149-438A-96D6-545E84278351}
+		{802E6C8B-FCE2-432F-8BF6-18A85D2482EB} = {63DB4E2A-E12D-4D15-A534-15D934114ABA}
+		{97C2D6DB-5D4D-4EC0-8B08-E30542D5E1E7} = {F9500CDF-33CC-4EE0-9B79-2E05C7F31888}
+		{F9500CDF-33CC-4EE0-9B79-2E05C7F31888} = {802E6C8B-FCE2-432F-8BF6-18A85D2482EB}
+		{6605F209-244D-47FF-BFE2-6B8D60622880} = {802E6C8B-FCE2-432F-8BF6-18A85D2482EB}
+		{99B20A45-BA95-4071-AFAD-D573DDFFF52B} = {AE8BECD6-1389-4C80-998B-BE8B7C3328D5}
+		{68AC4676-BD28-4FE5-8942-EBA8624E9AE8} = {63DB4E2A-E12D-4D15-A534-15D934114ABA}
+		{966A42FB-9798-44CA-9BD5-577D165F82EA} = {851D4B93-F494-4765-8E3F-EAA15BC249FD}
+		{851D4B93-F494-4765-8E3F-EAA15BC249FD} = {63DB4E2A-E12D-4D15-A534-15D934114ABA}
+		{D79C62AA-2CAD-4C68-A5B9-F2EB7EA5A306} = {AE8BECD6-1389-4C80-998B-BE8B7C3328D5}
+		{B340D5AB-1803-4A5F-AE72-3E6BBFE85123} = {AE8BECD6-1389-4C80-998B-BE8B7C3328D5}
+		{EE84D605-E2D3-4325-9D02-3B0E0DE7C920} = {AE8BECD6-1389-4C80-998B-BE8B7C3328D5}
+		{05C7E6B0-0382-4C7F-BEA5-A19C82978F23} = {AE8BECD6-1389-4C80-998B-BE8B7C3328D5}
+		{DF78E65D-B58F-48E7-B865-2A25B76A927B} = {63DB4E2A-E12D-4D15-A534-15D934114ABA}
+		{D1A33D30-D211-46C6-B63A-EF4C49044C54} = {AE8BECD6-1389-4C80-998B-BE8B7C3328D5}
+	EndGlobalSection
+EndGlobal
